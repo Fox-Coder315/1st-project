@@ -16,7 +16,7 @@ h1 {
     text-align: center;
     line-height:1.1;
 
-    @media (width > 750px) {
+    @media (width > 768px) {
                             font-size: 7.5rem;
     }
 }
@@ -69,7 +69,7 @@ section {
                 gap: 60px;
                 margin-block-end: 60px;
 
-                @media (width >750px) {
+                @media (width >768px) {
                     grid-template-columns: 1fr 1fr;
 }
 
