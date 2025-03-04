@@ -1,120 +1,125 @@
 *{
-   box-sizing: border-box; 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
-
-body{
-    font-family: sans-serif;
-    color: #1b281b;
-    line-height: 1.5;
-    font-size : 1.25rem;
+ 
+ body{
+     font-family: sans-serif;
+     color: #1b281b;
+     line-height: 1.5;
+     font-size : 1.25rem;
+ }
+ 
+ h1 {
+     font-family: sans-serif;
+     color: darkgray;
+     font-size: 4.5rem;
+     text-align: center;
+     line-height:1.1;
+     padding-block-end: 10px;
+ 
+     @media (width > 768px) {
+                             font-size: 7.5rem;
+     }
+ }
+ 
+ header {
+         justify-content: space-between;
+         background-color: #fff;
+         display: flex;
+ }
+ 
+ h2 {
+     font-size: 2rem;
+     color: #cb721c;
+ }
+ 
+ h3 {
+     font-size: 1.75rem;
+ }
+ 
+ section {
+          margin-block: 100px;
+ }
+ 
+ .primary-nav ul {
+                  list-style: none;
+                  margin: 0;
+                  padding: 0;
+                  display: flex;
+                  gap: 10px;
+ }
+ 
+ .primary-nav a{
+                color: black;
+                font-weight: bold;
+                text-decoration: none;
+ }
+ 
+ .primary-nav a:hover,
+ .primary-nav a:focus-visible{
+                              color: #5f9b9f;
+ }
+ 
+ .wrapper {
+           max-inline-size: 1000px;
+           margin-inline: auto;
+ }
+ 
+ .two-col-layout{
+                 display: grid;
+                 gap: 60px;
+                 margin-block-end: 60px;
+ 
+                 @media (width >768px) {
+                     grid-template-columns: 1fr 1fr;
+ }
+ 
+ }
+ 
+ .teal-bg {
+           border: 5px solid #0b4a5a;
+           background-color: #087a98;
+           color: #fff;
+           padding: 30px;
+           
+ }
+ 
+ .teal-tx {
+           color: #087a98;
+ }
+ 
+ a {
+     color: #2b930b;
+ }
+ 
+ a:visited {
+             color: #087a98;
+ }
+ 
+ a:hover,
+ a:focus-visible {
+                  color: #5f9b9f;
+ }
+ 
+ img {
+      max-inline-size: 100%;
+ }
+ 
+ .bg-text {
+           color: #fff;
+           background-image: url('../images/simple-steps.jpg');
+           padding: 34px;
+           border: #0b4a5a solid 10px;
+           background-repeat: no-repeat;
+           background-position: center;
+           background-size: cover;
+           @media (width >768px) {
+            grid-template-columns: 1fr 1fr;
+ }
 }
-
-h1 {
-    font-family: sans-serif;
-    color: darkgray;
-    font-size: 4.5rem;
-    text-align: center;
-    line-height:1.1;
-
-    @media (width > 768px) {
-                            font-size: 7.5rem;
-    }
-}
-
-header {
-        justify-content: space-between;
-        background-color: #fff;
-        display: flex;
-}
-
-h2 {
-    font-size: 2rem;
-    color: #cb721c;
-}
-
-h3 {
-    font-size: 1.75rem;
-}
-
-section {
-         margin-block: 100px;
-}
-
-.primary-nav ul {
-                 list-style: none;
-                 margin: 0;
-                 padding: 0;
-                 display: flex;
-                 gap: 10px;
-}
-
-.primary-nav a{
-               color: black;
-               font-weight: bold;
-               text-decoration: none;
-}
-
-.primary-nav a:hover,
-.primary-nav a:focus-visible{
-                             color: #5f9b9f;
-}
-
-.wrapper {
-          max-inline-size: 1000px;
-          margin-inline: auto;
-}
-
-.two-col-layout{
-                display: grid;
-                gap: 60px;
-                margin-block-end: 60px;
-
-                @media (width >768px) {
-                    grid-template-columns: 1fr 1fr;
-}
-
-}
-
-.teal-bg {
-          border: 5px solid #0b4a5a;
-          background-color: #087a98;
-          color: #fff;
-          padding: 10px;
-          
-}
-
-.teal-tx {
-          color: #087a98;
-}
-
-a {
-    color: #2b930b;
-}
-
-a:visited {
-            color: #087a98;
-}
-
-a:hover,
-a:focus-visible {
-                 color: #5f9b9f;
-}
-
-img {
-     max-inline-size: 100%;
-}
-
-.bg-text {
-          color: #fff;
-          background-image: url('../images/simple-steps.jpg');
-          padding: 24px;
-          border: #0b4a5a solid 10px;
-          background-repeat: no-repeat;
-          background-position: center;
-          background-size: cover;
-}
-
-
-footer {
-        text-align: center;
-}
+ 
+ footer {
+         text-align: center;
+ }
