@@ -155,4 +155,8 @@
     .two-col-layout {
       grid-template-columns: 1fr; /* Stack columns on smaller screens */
     }
+
+    .primary-nav a {
+      padding: 10px; /* Add padding to navigation links */
+    }
   }
