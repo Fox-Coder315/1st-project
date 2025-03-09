@@ -41,6 +41,7 @@
     background-color: var(--background-color);
     display: flex;
     padding: 10px 20px;
+    align-items: center; /* Ensure items are centered vertically */
   }
   
   h2 {
@@ -62,6 +63,7 @@
     padding: 0;
     display: flex;
     gap: 10px;
+    margin-left: auto; /* Push navigation links to the right */
   }
   
   .primary-nav a {
@@ -158,5 +160,9 @@
 
     .primary-nav a {
       padding: 10px; /* Add padding to navigation links */
+    }
+
+    header {
+      flex-direction: row; /* Ensure logo is on the left and links on the right */
     }
   }
